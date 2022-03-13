@@ -43,7 +43,7 @@ for (const element of pokemons) {
    num.textContent = `Pokemon Number - "${element.id}"`
    pokname.textContent = `"${element.name}"`
    countMeaning.textContent = element.candy_count
-   talents.textContent = "Pokemon Talents:"
+   talents.textContent = "Pokemon Elements:"
    if (element.candy_count == null){
       countMeaning.textContent = "Rare Pokemon cannot be obtained for candy";
    }
